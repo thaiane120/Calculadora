@@ -15,11 +15,15 @@ public static void main(String[] args) {
             if(z==2){
                 System.out.println("O resultado é "+operacoes.Subtrai(x, y));
             }else{
+                if (z == 3){
+                    System.out.println("O resultado é " + operacoes.Multiplica(x, y));
+                }else{
              System.out.println("***OPERAÇÃO INVÁLIDA***");
-        }
-                
-        }
-}
+                }
+            }
+        } 
+            
+    }
 }
 
 
