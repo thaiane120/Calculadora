@@ -18,8 +18,13 @@ public static void main(String[] args) {
                 if (z == 3){
                     System.out.println("O resultado é " + operacoes.Multiplica(x, y));
                 }else{
-             System.out.println("***OPERAÇÃO INVÁLIDA***");
+                    if(z == 4){
+                        System.out.println("O resultado é " + operacoes.Divide(x, y));
+                    }else{
+                       System.out.println("***OPERAÇÃO INVÁLIDA***");
+                    }
                 }
+                   
             }
         } 
             
